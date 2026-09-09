@@ -1,0 +1,26 @@
+\chapter{Summary and Conclusions}
+The summary and main findings along with future scope is presented in this chapter. This provides the brief overview of research work conducted.
+
+\section{Summary}
+The first chapter introduces recommendation systems and clarifies the need for Federated learning in personalized recommendations. It also discusses the classification of federated recommendation systems. Chapter 2 provides the literature review of the techniques available regarding recommendations and federated recommendation system. Also, it examines the federated cross-domain recommendation system. It presents the research work goals.
+
+Chapter 3 explains a federated, emotion-driven, sentiment analysis model aimed at edge devices to trade off privacy, scalability and performance. The PRADO (Projected Attention Network) used in the work is implemented in a federated learning (FL) setting to overcome the shortcomings of NLP models. PRADO generates small, dynamically acquired embeddings based on the projection mechanism and convolution and attention-based layers, which can be used effectively to classify long texts with minimum memory consumption. The federated setup combines local predictions through weighted FedAvg, enabling decentralized learning while protecting user data.
+
+Chapter 4 introduces a Multi-objective Modular Federated Cross-Domain Recommendation (MFCDR) framework.  This combines emotion recognition with personalized recommendation while maintaining privacy through Federated Learning (FL). Traditional recommendation systems mainly depend on collaborative filtering or content-based methods, but this work focuses on emotions derived from user reviews, using the GoEmotions dataset as the source domain and different datasets like Movies, Music, Books, and Games as the target domains. To address heterogeneity and synchronization delays in FL, a weighted FedAvg aggregation strategy is proposed that collects client updates only after a threshold is reached, thereby enhancing scalability and stability. The emotion embeddings produced by PRADO are also used at the recommendation layer, enabling cross-domain recommendations that effectively handle sparse data, noisy reviews, and cold-start issues.
+
+In Chapter 5, the evaluation of the proposed model occurs in three phases. In the first phase, the model is tested for its ability to predict emotions across different target domains, such as books, music, movies, and games. Two models are trained on the GoEmotions dataset, PRADO and BERT, namely FL-PRADO and FL-BERT, using the experimental setup in Section 3.3. The second phase of evaluation compares these two models exclusively on different datasets. In addition, two versions of FL-PRADO are implemented, V1 and V2, as described in Section 3.4. The comparison among these two versions and BERT is performed on various metrics. The third phase of evaluation compares the proposed model with baseline recommenders and their FL frameworks.
+
+The proposed FL-PRADO model achieved the best performance in terms of HR@10, HR@20, NDCG, and MRR compared to centralized and federated recommendation models as well as the best-performing state-of-the-art models. Comparative experiments showed that the proposed FL-PRADO model consistently outperformed centralized, federated, and state-of-the-art recommendation models on HR@10, HR@20, NDCG, and MRR. The results demonstrate the effectiveness of federated learning combined with PRADO in providing privacy-preserving cross-domain recommendations, with higher recommendation accuracy, better ranking quality, scalability, and user privacy.
+
+\section{Conclusions}
+The following conclusions are drawn from the investigation presented in this thesis:
+
+\begin{enumerate}
+  \item The research confirms the feasibility of cross-domain suggestions in privacy-sensitive environments based on Federated learning.
+  \item The adoption of emotional embeddings in the recommendation system has improved its performance tremendously, which has been confirmed by using different baselines and SOTA models.
+  \item The developed model applies knowledge transfer by extracting emotions from reviews and mapping them to the different target domains.
+\end{enumerate}
+
+\section{Future Scope}
+The proposed MFCDR framework demonstrates strong potential for privacy-preserving, emotionally oriented recommendations. Several research directions can be identified. To begin with, expanding datasets to multilingual and multicultural contexts can be added to the dataset to enhance their generalizability and reduce bias. The inclusion of multimodal information, i.e., audio, video, and physiological signals, might increase the accuracy of emotion prediction, as it will have denser contextual information.
+

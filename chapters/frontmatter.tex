@@ -1,0 +1,342 @@
+%% =====================================================
+%% TITLE SHEET (no page number)
+%% =====================================================
+\thispagestyle{nostyle}
+
+\vspace*{0.1cm}
+\begin{center}
+{\Large\bfseries A Novel Framework for\\[0.15cm]
+Multi-Objective Federated\\[0.15cm]
+Cross-Domain Recommendation\\[0.15cm]
+System}
+
+\vspace{0.5cm}
+{\large Submitted in\\[0.15cm]
+partial fulfilment of the requirements\\
+of the degree of Doctor of Philosophy}
+
+\vspace{0.5cm}
+{\large by}
+
+\vspace{0.1cm}
+{\Large\bfseries MANISHA SHRIRANG OTARI}\\[0.05cm]
+{\large\bfseries (PRN: - 20ST31449S004)}
+
+\vspace{0.5cm}
+{\large Supervisor}\\[0.1cm]
+{\large Dr. Deepika. V. Patil}
+
+\vspace{0.2cm}
+{\large Co-Supervisor}\\[0.1cm]
+{\large Dr. Mithun. B. Patil}
+
+\vspace{0.3cm}
+\includegraphics[width=3cm]{figures/logo_sgu}
+
+\vspace{0.2cm}
+{\large Department of Computer Science \& Engineering}\\
+{\large Faculty of Science \& Technology}
+
+\vspace{0.2cm}
+{\large\bfseries SANJAY GHODAWAT UNIVERSITY KOLHAPUR}\\
+{\large\bfseries MAHARASHTRA, INDIA}
+
+\vspace{0.2cm}
+{\large January, 2026}
+\end{center}
+\newpage
+%% =====================================================
+%% APPROVAL SHEET (page number ii)
+%% =====================================================
+\thispagestyle{frontmatterstyle}
+
+\begin{center}
+{\Large\bfseries Approval of Ph.D. Thesis}
+\end{center}
+
+\vspace{0.5cm}
+\noindent Thesis entitled ``{\bfseries A Novel Framework for Multi-objective Federated Cross-Domain Recommendation System}'' by {\bfseries Manisha S. Otari} [20ST31449S004] is approved for the degree of Doctor of Philosophy.
+
+\vspace{1.5cm}
+\noindent
+\begin{tabular}{p{7cm}p{7cm}}
+ & \hfill\begin{minipage}[t]{6cm}\raggedleft Examiner/s \\[0.8cm] --- \\[0.8cm] --- \\[0.8cm] ---\end{minipage} \\[1.5cm]
+ & \hfill\begin{minipage}[t]{6cm}\raggedleft Supervisor/s \\[0.8cm] --- \\[0.8cm] ---\end{minipage} \\[1.5cm]
+ & \hfill\begin{minipage}[t]{6cm}\raggedleft Chairperson \\[0.8cm] ---\end{minipage} \\[1.5cm]
+Date: & \\[0.3cm]
+Place: & \\
+\end{tabular}
+\newpage
+%% =====================================================
+%% DECLARATION (no page number)
+%% =====================================================
+\thispagestyle{nostyle}
+
+\begin{center}
+{\bfseries Declaration}
+\end{center}
+
+\noindent I declare that this written submission represents my ideas in my own words and where others' ideas or words have been included, I have adequately cited and referenced the original sources. I also declare that I have adhered to all principles of academic honesty and integrity and have not misrepresented, fabricated, or falsified any idea/data/fact/source in my submission. I understand that any violation of the above will be cause for disciplinary action by the University and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.
+
+\vspace{2cm}
+\noindent
+\begin{tabular}{p{7cm}p{7cm}}
+Date: & Signature:\\[0.5cm]
+ & Manisha Shrirang Otari\\
+ & PRN: \hspace{1cm} 20ST31449S004\\
+\end{tabular}
+\newpage
+%% =====================================================
+%% ACKNOWLEDGEMENT (no page number)
+%% =====================================================
+\thispagestyle{nostyle}
+
+\begin{center}
+{\bfseries Acknowledgement}
+\end{center}
+To begin, I wish to extend my gratitude to Divine Power for granting me the opportunity to conduct this research and for his blessings on my endeavors. Every step along the way, there are challenges to overcome and lessons to be learned. Don't run away from challenges; instead, tackle them head-on, and you'll succeed. Whenever I'm feeling down, I can rely on my Guru's words to keep me going. As a result, I am overjoyed, honored, and grateful to have the privilege of working under the guidance of Dr. Deepika Patil (Supervisor), Head of the Department of CSE, SGU, Kolhapur, and Dr. M. B. Patil (Co-Supervisor), Associate Professor, Department of AI \& DS, NKOCET, Solapur, for the successful accomplishment of this thesis work. Their encouragement and clear vision helped me complete this challenging research. This research work has benefited considerably from their expertise, knowledge, and experience. My success in my research work is primarily due to their forethought. It was an honor and a pleasure to work with them. Thank you for your thoughtful comments and suggestions over the years. I am delighted to bring this thesis as a result of their unwavering support and inspiration.
+
+I am very thankful to the Hon'ble Chairman, Shri. Sanjay D. Ghodawat, Trustee Shri. Vinayak V. Bhosale and Vice Chancellor Dr. Udhav Bhosale. I want to thank Dr. V. V. Kulkarni (Dean, Faculty of Science \& Technology) and Dr. Amey Katdare (Director, School of Technology) for their support. I am thankful to the management team of Sanjay Ghodawat University, Kolhapur. I am very grateful to the Doctoral Committee for their valuable guidance.
+
+I am very thankful to the management of Pradnya Niketan Education Society, Pune for motivating me for higher education and Dr. B. K. Sonage (Principal), Dr. V.K. Patki (Vice-Principal, Admin \& Academics), Dr. S.S. Metan (Vice Principal Career Development), and Dr. Bag Vipul (Head, CSE Department) of N. K. O. C. E. T., Solapur for providing all the facilities required to me along with the constant encouragement for the research work. I am very much thankful to my colleagues for their kind assistance. I am also very grateful to Dr. Archana Chougule, Dr. B. Sureshkumar, and Dr. S. V. Khandal for their valuable support during the journey. I thank all my friends and Mr. Onkar Ingale, the student, for their valuable input during the research work.
+
+As a final note, I'd like to thank everyone for their support and cooperation. Throughout my time at the CSE department, I've had the utmost respect and admiration for all of the faculty members and staff at Sanjay Ghodawat University, Kolhapur. I am also grateful to my Ph.D. colleagues for their assistance, and to my entire family, including my mother, father, husband, daughter, son, and family friends; I couldn't have finished my research without their blessings and support.
+
+\vspace{0.5cm}
+\noindent
+\begin{tabular}{p{7cm}p{7cm}}
+ & \bfseries Manisha Shrirang Otari \\
+ & \bfseries PRN: 20ST31449S004 \\
+\end{tabular}
+\newpage
+%% =====================================================
+%% CERTIFICATE OF COURSE WORK (no page number)
+%% =====================================================
+\thispagestyle{nostyle}
+
+\begin{center}
+{\bfseries CERTIFICATE OF COURSE WORK}
+\end{center}
+
+\vspace{0.5cm}
+\noindent This is to certify that Manisha Shrirang Otari (PRN: 20ST31449S004), admitted to the candidacy of Ph.D.\ degree on 31-01-2021, has successfully completed all courses required for the Ph.D.\ programme. Details are given below.
+
+\vspace{0.5cm}
+
+\begin{tabular}{|p{1cm}|p{3cm}|p{6.5cm}|p{1.5cm}|}
+\hline
+\multicolumn{4}{|l|}{\textbf{Course Work Part A}} \\
+\hline
+\textbf{Sr. No} & \textbf{Course Code} & \textbf{Course Title} & \textbf{Credits} \\
+\hline
+1 & 19PhDSTRM002 & Research Methodology & 4 \\
+\hline
+2 & 20PhDSTCS001 & Artificial Intelligence & 4 \\
+\hline
+\multicolumn{4}{|l|}{\textbf{Course Work Part B}} \\
+\hline
+\textbf{Sr. No} & \textbf{Course Code} & \textbf{Course Title} & \textbf{Credits} \\
+\hline
+1 & CPE-RPE & Research And Publication Ethics & 2 \\
+\hline
+2 & 20PhDSTCS004 & Natural Language Processing & 4 \\
+\hline
+3 & 20PhDSTCS010 & Seminar & 2 \\
+\hline
+\multicolumn{4}{|r|}{\textbf{Total: 16}} \\
+\hline
+\end{tabular}
+
+\vspace{2cm}
+\noindent
+\begin{tabular}{p{7cm}p{7cm}}
+Place: \rule{3cm}{0.4pt} & Signature \rule{3cm}{0.4pt}\\[0.5cm]
+Date: \rule{3cm}{0.4pt} & Controller of Examination\\
+\end{tabular}
+\newpage
+%% =====================================================
+%% ABSTRACT
+%% =====================================================
+\chapter*{Abstract}
+\markboth{Abstract}{Abstract}
+\setcounter{page}{1}
+\addcontentsline{toc}{chapter}{Abstract}
+Data is the new currency in the modern digital environment, impacting research, business strategies, and decision-making across various industries, providing valuable insights. User privacy is increasingly important as data becomes more valuable. This study presents a model combining emotion detection and target item recommendations based on individual users, guaranteeing user privacy using Federated Learning.
+
+Conventional recommendation systems have been based on centralized collaborative filtering or content-based methods, which tend to undermine data privacy and fail to extrapolate across domains. Conversely, the research discusses how emotion grounded in user-generated content can serve as a powerful facilitator for knowledge transfer across disciplines. The proposed system can be used to generate emotion-sensitive recommendations that match the user's feelings with the literary texts by using GoEmotions as the source domain and Movies, Music, Books, and Games as the target domain.
+
+At the center of the proposed system is the Projected Attention Network (PRADO), an effective deep learning network that generates low-dimensional, dynamic embeddings using projection, convolution, and attention layers. PRADO is most suited when edge devices have limited computing power, enabling decentralized emotion recognition among clients. A Weighted Federated Averaging (FedAvg) approach is proposed to address communication inefficiencies and model divergence, which are inherent to federated setups. This technique enhances convergence stability, scalability, and synchronization among heterogeneous clients by aggregating local updates after a threshold size is reached.
+
+The proposed system has two stages: training and evaluation. In the initial stage, the GoEmotions dataset is used to predict emotion using the models LSTM, Bi-LSTM, BERT, and PRADO in central and federated modes. The comparative analysis shows that FL-PRADO shows consistency and balance among precision, recall, and F1-score. These findings support the claim that PRADO can capture subtle emotional expressions in a federated, privacy-respecting environment. The second phase consists of transferring FL-PRADO's emotional embeddings to an enhanced recommendation layer, the output of which is personalized Movie, Song, Book, or Game recommendations based on emotional similarity.
+
+Experimental results show that the proposed system is robust to different numbers of clients, learning rates, and epochs. As the number of training rounds increases, global accuracy improves as emotional data contributions become better and more representative. A comparison of the proposed model is performed against existing best-practice cross-domain recommendation models in centralized mode: EMCDR, CDFLM, ANR, and FL models MFPCDR, FL-EMCDR, FL-CDFLM, and FL-ANR. The highest Hit Rate (HR@10) of the proposed model, i.e., 79.6\%, is recorded for song recommendation (Music), along with MRR 74.7\%, median rank 1, and NDGC@10 is 75.7\%. This demonstrates that the proposed model is superior to them, making it an outstanding, privacy-compliant alternative.
+
+The experiment confirms that emotional representations are an effective cross-domain cue, allowing personal recommendations to be provided without sharing user data. The flexibility of MFCDR, with its modular design, applies to various fields of application, such as movies, music, e-commerce, and healthcare, where emotion-based personalization and privacy are the most crucial issues. The architecture is also compatible with GDPR standards. It provides a secure base for large-scale, real-life deployments.
+
+\vspace{0.5cm}
+\noindent
+{\bfseries Keywords:} Data privacy, security, Federated Learning, transfer learning, cross-domain recommendation, attention network.
+\newpage
+%% =====================================================
+%% TABLE OF CONTENTS (auto-generated)
+%% =====================================================
+\setcounter{page}{3}
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+\newpage
+%% =====================================================
+%% LIST OF FIGURES
+%% =====================================================
+\setcounter{page}{7}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\newpage
+%% =====================================================
+%% LIST OF TABLES
+%% =====================================================
+\setcounter{page}{8}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\newpage
+%% =====================================================
+%% LIST OF GRAPHS
+%% =====================================================
+\setcounter{page}{9}
+{\centering\normalfont\bfseries\fontsize{24}{30}\selectfont List of Graphs\par}
+\addcontentsline{toc}{chapter}{List of Graphs}
+\vspace{0.5cm}
+\begin{longtable}{p{2cm}p{10.5cm}p{2cm}}
+\hline
+\textbf{Graph No} & \textbf{Description} & \textbf{Page No} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Graph No} & \textbf{Description} & \textbf{Page No} \\
+\hline
+\endhead
+\hline
+\endfoot
+3.3 & Precision comparison with base models & 42 \\
+3.4 & Recall comparison with base models & 43 \\
+3.5 & F1 Score comparison with base models & 45 \\
+3.6 & Weighted-Averaged Precision & 47 \\
+3.6 & Weighted-Averaged Recall & 48 \\
+3.6 & Weighted-Averaged F1 Score & 49 \\
+4.2 & Emotion Distribution (GoEmotions) & 57 \\
+4.3 & Client-optimizer ablation: test loss of the FL-PRADO global model & 72 \\
+4.4 & Precision/recall/F1 at the 0.5 threshold as a function of the positive-class weight & 73 \\
+4.5 & Precision-recall trade-off of the final FL-PRADO global model & 74 \\
+5.1 & HR@10 performance of FL-PRADO over different target domains & 80 \\
+5.2 & Cumulative distribution of the true item's rank. & 81 \\
+5.3 & Hit rate comparison between V1 and V2 & 82 \\
+5.4 & Recommendation Performance Comparison & 85 \\
+\end{longtable}
+\newpage
+%% =====================================================
+%% ABBREVIATION, NOTATION AND NOMENCLATURE
+%% =====================================================
+\setcounter{page}{11}
+{\centering\normalfont\bfseries\fontsize{24}{30}\selectfont List of Abbreviations\par}
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+\vspace{0.5cm}
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{p{4.5cm}p{11cm}}
+\hline
+\textbf{Abbreviation / Symbol} & \textbf{Full Form / Description} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Abbreviation / Symbol} & \textbf{Full Form / Description} \\
+\hline
+\endhead
+\hline
+\endfoot
+BERT & Bidirectional Encoder Representations from Transformers \\
+CCPA & California Consumer Privacy Act \\
+CDR & Cross-Domain Recommendation \\
+CNN & Convolution Neural Network \\
+CPA & Colorado Privacy Act \\
+CSR & Cross-Domain Social Recommendation \\
+DL & Deep Learning \\
+DPDA & Digital Personal Data Protection Act \\
+FedAvg & Federated Averaging \\
+FedRec/FRS & Federated Recommendation System \\
+FCF & Collaborative Filtering \\
+FHE & Fully Homomorphic Encryption \\
+FL & Federated Learning \\
+FTL & Federated Transfer Learning \\
+GDPR & General Data Protection Regulation \\
+GPU & Graphics Processing Unit \\
+GRU & Gated Recurrent Units \\
+HR & Hit Rate \\
+IoT & Internet of Things \\
+LDP & Local Differential Privacy \\
+LLM & Large Language Model \\
+LSTM & Long Short-Term Memory \\
+MAE & Mean Average Error \\
+ML & Machine Learning \\
+MLP & Multi-Layer Perceptron \\
+MNO & Mobile Network Operator \\
+MTL & Multi-Task Learning \\
+NATR & Neural Attentive Transfer Recommendation \\
+NDCG & Normalized Discounted Cumulative Gain \\
+NDPM & Normalized Distance-Based Performance Measure \\
+NLP & Natural Language Processing \\
+PMF & Probabilistic Matrix Factorization \\
+PRADO & Projected Attention Network \\
+RNN & Recurrent Neural Network \\
+RMSE & Root-Mean-Square Error \\
+RRM & Random Response Mechanism \\
+RS & Recommendation Systems \\
+SGD & Stochastic Gradient Descent \\
+SGU & Sanjay Ghodawat University \\
+SMC & Secure Multiparty Computation \\
+SOTA & State of the Art \\
+SVM & Support Vector Machine \\
+TL & Transfer Learning \\
+$\mathcal{U}$ & Set of users $\{u_1, u_2, \ldots, u_M\}$ \\
+$\mathcal{E}$ & Set of emotion categories $\{e_1, e_2, \ldots, e_C\}$ \\
+$\mathcal{T}$ & Set of target domains $\{t_1, t_2, \ldots, t_D\}$ \\
+$\mathcal{I}_u$ & Set of interactions for user $u$ \\
+$\mathcal{D}_k$ & Training data on client $k$ \\
+$\mathcal{S}^{(t)}$ & Selected client subset in round $t$ \\
+$\mathbf{w}$ & Model weights / parameters \\
+$\mathbf{w}_{\text{global}}$ & Global model on server \\
+$\mathbf{w}_k$ & Local model on client $k$ \\
+$\mathbf{h}$ & Hidden state / representation vector \\
+$\mathbf{e}_i$ & Projected embedding for token $x_i$ \\
+$\mathbf{W}$ & Weight matrix \\
+$\mathbf{b}$ & Bias vector \\
+$\mathbf{x}$ & Input feature vector \\
+$\mathbf{y}$ & Output / label vector \\
+$\hat{\mathbf{y}}$ & Predicted output \\
+$f_\theta$ & Recommendation function with parameters $\theta$ \\
+$L$ & Sequence length / loss function \\
+$K$ & Number of clients \\
+$M$ & Number of users \\
+$C$ & Number of emotion classes \\
+$N$ & Number of convolution filters \\
+$G$ & Number of hash functions / embedding dimension \\
+$T$ & Number of training rounds \\
+$E$ & Local epochs per round \\
+$B$ & Buffer size \\
+$d_h$ & Dimension of attention-weighted vector \\
+$p_k$ & Proportion of data on client $k$ \\
+$\alpha$ & Attention score / weighting factor \\
+$\beta$ & Momentum coefficient \\
+$\gamma$ & Decay rate / learning rate decay factor \\
+$\delta$ & Delta / difference \\
+$\epsilon$ & Small constant for numerical stability \\
+$\theta$ & Model parameters \\
+$\eta$ & Learning rate \\
+$\lambda$ & Regularization parameter \\
+$\mu$ & Momentum term \\
+$\pi$ & Pi (ratio of circumference to diameter) \\
+$\sigma$ & Softmax function / standard deviation \\
+$\tau$ & Temperature parameter \\
+$\phi$ & Feature representation \\
+$\psi$ & Mapping function \\
+$\omega$ & Angular frequency / weight \\
+\end{longtable}
+\setlength{\tabcolsep}{6pt}
